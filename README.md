@@ -3,7 +3,7 @@
 Monitoring the number of files in the specified directories
 
 ### Two options for work:
-* working with one target directory (the `-directory` flag) —determines all subdirectories and reads the number of files in each of them:
+* working with one target directory (the `-directory` flag) - determines all subdirectories and reads the number of files in each of them:
 ```
 ./numfiles_exporter -directory="/opt/test"
 ```
