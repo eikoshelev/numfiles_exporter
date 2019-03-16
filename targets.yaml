@@ -1,0 +1,3 @@
+targetDirectories: # yaml array
+- "/etc"
+- "/var"
