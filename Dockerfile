@@ -5,4 +5,4 @@ COPY targets.yaml /opt/numfiles_exporter/
 
 WORKDIR /opt/numfiles_exporter/
 
-CMD ["./numfiles_exporter"]
+CMD ["./numfiles_exporter"] # specify the required flags!
