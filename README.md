@@ -67,5 +67,5 @@ go build
 GOOS=linux GOARCH=amd64 go build
 ```
 ```
-docker build -t numfiles_exporter:0.1.0 .
+docker build -t numfiles_exporter .
 ```
