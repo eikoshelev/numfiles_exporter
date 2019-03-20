@@ -8,7 +8,7 @@ var (
 	numberOfFiles = prometheus.NewGaugeVec(prometheus.GaugeOpts{
 		Name: "number_of_files",
 		Help: "Number of files in the target directory",
-	}, []string{"directory"})
+	}, []string{"directory", "counting"})
 )
 
 func init() {

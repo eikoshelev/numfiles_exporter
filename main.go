@@ -15,9 +15,10 @@ import (
 var (
 	directory   = flag.String("directory", "", "directory with target subdirectories")
 	targetsFile = flag.String("targets", "", "file with separate target directories")
-	timeout     = flag.Int64("timeout", 10, "interval (seconds) of checking the number of files in the target directory")
+	timeout     = flag.Int64("timeout", 15, "interval (seconds) of checking the number of files in the target directory")
 	port        = flag.String("port", ":9095", "port of return of metrics")
 	handler     = flag.String("handler", "/metrics", "handler for which metrics will be available")
+	count       = flag.String("count", "all", "counting what to do: only files, only folders, everything (can take: files || dirs || all)")
 )
 
 type targetList struct {
