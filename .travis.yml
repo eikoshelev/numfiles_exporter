@@ -1,12 +1,13 @@
 language: go
 go:
   - 1.12.x
-  - master
 env:
   global:
     - GOOS=linux
     - GOARCH=amd64
 script: 
+  - go get github.com/prometheus/client_golang/prometheus
+  - go get gopkg.in/yaml.v2
   - go build
 notifications:
   email: true
