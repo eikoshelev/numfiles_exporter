@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/eikoshelev/etcd-proxy-server.svg?branch=master)](https://travis-ci.org/eikoshelev/etcd-proxy-server)
-
 # numfiles_exporter
 
 Monitoring the number of files in the specified directories
