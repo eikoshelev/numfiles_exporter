@@ -71,3 +71,7 @@ GOOS=linux GOARCH=amd64 go build
 ```
 docker build -t numfiles_exporter .
 ```
+#### or
+```
+docker pull eikoshelev/numfiles_exporter
+```
