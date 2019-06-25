@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/eikoshelev/numfiles_exporter.svg?branch=master)](https://travis-ci.org/eikoshelev/numfiles_exporter)
+
 # numfiles_exporter
 
 Monitoring the number of files in the specified directories
