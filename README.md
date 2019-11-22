@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/eikoshelev/numfiles_exporter.svg?branch=master)](https://travis-ci.org/eikoshelev/numfiles_exporter)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/eikoshelev/numfiles_exporter)
 
 # numfiles_exporter
 
